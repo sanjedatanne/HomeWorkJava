@@ -21,10 +21,17 @@ public class Computer {
 		this.price = price;
 		this.grade = grade;
 		this.madeInUSA = madeInUSA;
-		System.out.println("My brand:" + brand + " Model is:" + model + " Operating Sytem:" +operatingSytem + " Price:" + price + " Grade:" + grade + " Made in USA?" + madeInUSA);
-		
-		
+		System.out.println("My brand: " + brand + " Model is: " + model + " Operating Sytem: " +operatingSytem + " Price: " + price + " Grade: " + grade + " Made in USA? " + madeInUSA);
+	}
 	
+	public Computer(String brand, String model, String operatingSytem, String price, boolean madeInUSA, char grade) {
+		this.brand = brand;
+		this.model = model;
+		this.operatingSytem = operatingSytem;
+		this.price = price;
+		this.grade = grade;
+		this.madeInUSA = madeInUSA;
+		System.out.println("My brand: " + brand + " Model is: " + model + " Operating Sytem: " +operatingSytem + " Price: " + price + " Grade: " + grade + " Made in USA? " + madeInUSA);
 	}
 
 }

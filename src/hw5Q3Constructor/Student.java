@@ -19,7 +19,7 @@ public Student (String stName, int stID, char sex, float grade, boolean isProgra
 	this.sex = sex;
 	this.isProgrammer = isProgrammer;
 	this.grade = grade;
-	System.out.println("Student Name:" + stName + " ID:" + stID + " Sex:" + sex + " Grade:" + grade + " Java Programmer:" + isProgrammer);
+	System.out.println("Student Name: " + stName + " ID: " + stID + " Sex: " + sex + " Grade: " + grade + " Java Programmer: " + isProgrammer);
 
 }
 }
