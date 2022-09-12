@@ -5,7 +5,8 @@ public abstract class MedicalSchool extends NursingSchool implements LawSchool {
 	public void biochemistryLab() {
 		System.out.println("This is from the biochemistry lab method");
 	}
-	public MedicalSchool() {
+	public static void medicalSchool() {
+		
 	}
 }
 /*

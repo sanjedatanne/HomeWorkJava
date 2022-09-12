@@ -6,7 +6,7 @@ public class ColumbiaUniversity extends MedicalSchool implements University, Voc
 	 * methods because a regular class can be instantiated whereas, any class with
 	 * an abstract method is an abstract class that can't be instantiated.
 	 */
-	public void biology() {
+	public static void biology() {
 		System.out.println("This is from the biology method");
 	}
 

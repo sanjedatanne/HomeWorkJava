@@ -6,6 +6,7 @@ public class Daughter extends Father {
 	public int age;
 
 	public Daughter() {
+		super("May", 40, 'M', true);
 		System.out.println("This is defualt constructor from Daughter class");
 	}
 
@@ -15,11 +16,14 @@ public class Daughter extends Father {
 		this.age = age;
 		System.out.println("");
 		super.father();
-		super.fatherInfo("May", 40, 'M', true);
+		super.fatherInfo("Abdul", 40, 'M', true);
 		super.familyName = "Ahmed Family";
 	}
 
 	public void daughter() {
+		super.name= "Julia";
+		super.familyName= "Ahmed";
+		super.age = 21;
 		System.out.println("This is from the daughter method");
 	}
 
